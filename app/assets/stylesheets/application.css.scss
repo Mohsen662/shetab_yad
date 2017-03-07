@@ -35,7 +35,7 @@ body {
 
 //HERO
 #hero {
-	padding: 300px 0;
+	padding: 250px 0;
 	background-image: image-url('hero-bg.jpg');
 	background-size: cover;
 	background-position: center;
@@ -48,7 +48,22 @@ body {
 		color: #eaeaea;
 		font-size: 3.4em;
 	}
-	
+	.btn {
+    font-family: 'BYekan', Sans-Serif;
+    color: #ffffff;
+    padding: 20px 35px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    font-size: 1.4em;
+    border-radius: 50px;
+    margin-top: 50px;
+    transition: 0.3s;
+  }
+  .btn:hover, btn:focus {
+    background-color: rgba(#eaeaea, 0.2);
+    transition: 0.3s;
+    cursor: pointer;
+  }
 }
 
 //FOOTER
