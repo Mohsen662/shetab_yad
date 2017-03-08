@@ -52,11 +52,11 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.action_mailer.default_url_options = { :host => 'shetabyad.com' }
-  config.action_mailer.delivery_method = :smtp
-  config.action_mailer.smtp_settings = {
-    :address => "127.0.0.1",
-    :port    => 25,
-    :domain  => 'shetabyad.com'
-  }
+  # config.action_mailer.default_url_options = { :host => 'shetabyad.com' }
+  # config.action_mailer.delivery_method = :smtp
+  # config.action_mailer.smtp_settings = {
+  #   :address => "127.0.0.1",
+  #   :port    => 25,
+  #   :domain  => 'shetabyad.com'
+  # }
 end
