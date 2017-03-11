@@ -35,6 +35,8 @@ gem 'jbuilder', '~> 2.5'
 gem 'devise', '~> 4.2'
 gem 'twitter-bootstrap-rails', '~> 4.0'
 gem 'devise-bootstrap-views', '~> 0.0.10'
+gem "omniauth-google-oauth2", "~> 0.2.1"
+gem 'rb-readline'
 
 group :development do 
   gem 'capistrano', '~> 3.7', '>= 3.7.2'
