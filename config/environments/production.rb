@@ -87,8 +87,12 @@ Rails.application.configure do
   config.action_mailer.default_url_options = {:host => 'shetabyad.com'}
     config.action_mailer.delivery_method = :smtp
     config.action_mailer.smtp_settings = {
-      :address => "127.0.0.1",
-      :port    => 25,
-      :domain  => 'shetabyad.com'
+      :address              => "smtp.gmail.com",
+      :port                 => 587,
+      :domain               => 'shetabyad.com',
+      :user_name            => 'shetabyad@gmail.com',
+      :password             => 'password',
+      :authentication       => 'plain',
+      :enable_starttls_auto => true
   }
 end
